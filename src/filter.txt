@@ -1,0 +1,4 @@
+awk '$3 - $2 < 5001' ../data/H3K4me1_GM23338_ENCFF474FMV.hg19.bed > ../data/H3K4me1_GM23338_ENCFF474FMV.hg19.filtered.bed
+awk '$3 - $2 < 5001' ../data/H3K4me1_GM23338_ENCFF986GPP.hg19.bed > ../data/H3K4me1_GM23338_ENCFF986GPP.hg19.filtered.bed
+
+
