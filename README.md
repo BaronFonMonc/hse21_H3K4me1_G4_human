@@ -28,7 +28,7 @@ https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM2
 
 Все опять норм ![image](https://user-images.githubusercontent.com/55275328/121381903-cf733c80-c94e-11eb-8413-460bd85a266d.png)
 
-![image](https://user-images.githubusercontent.com/55275328/121385205-94263d00-c951-11eb-8ace-815a60bd1141.png)
+![изображение](https://user-images.githubusercontent.com/55275328/121404156-57b00c80-c964-11eb-90ca-e89099e34550.png)
 
 Сессия: https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr10%3A174753%2D184126&hgsid=1124120993_P5alfn82MucFAMwArk9KBpqULamM
 
