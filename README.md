@@ -29,7 +29,9 @@ liftOver   H3K4me1_GM23338.ENCFF986GPP.hg38.bed   hg38ToHg19.over.chain.gz   H3K
 
 ## Строим гистограммы распределения длин пик
 С помощью этого КОДА получаем следующие гистограммы:
-
+![image](https://user-images.githubusercontent.com/55275328/121436656-ab811c80-c989-11eb-9447-2232885af36b.png)
+![image](https://user-images.githubusercontent.com/55275328/121436677-b340c100-c989-11eb-8faa-ad003e13ec2a.png)
+Кол-во пиков: 371532 и 1877541 соответственно
 
 
 
