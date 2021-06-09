@@ -8,3 +8,5 @@ https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/blob/main/data/H3K4me1_GM
 
 track visibility=dense name="ChIP_merge"  color=50,50,200   description="H3K4me1_GM23338_merge.hg19.bed"
 https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/blob/main/data/H3K4me1_GM23338_merge.hg19.bed?raw=true
+
+Как видим все норм ![image](https://user-images.githubusercontent.com/55275328/121358140-0a6b7500-c93b-11eb-9df3-92c3e6653703.png)
