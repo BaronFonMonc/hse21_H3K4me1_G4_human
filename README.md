@@ -1,4 +1,9 @@
 # hse21_H3K4me1_G4_seq_Li_K_human
+
+охраненная сессия в UCSC GenomeBrowser:  https://genome.ucsc.edu/s/Bruh/hse21_H3K4me1_G4_human 
+
+## Конвертируем координаты с версии генома hg38 на hg19
+
 Визуализируем в геном браузере с помощью 
 track visibility=dense name="ENCFF474FMV"  description="H3K4me1_GM23338_ENCFF474FMV.hg19.filtered.bed"
 https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/blob/main/data/H3K4me1_GM23338_ENCFF474FMV.hg19.filtered.bed?raw=true
