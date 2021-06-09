@@ -1,8 +1,37 @@
 # hse21_H3K4me1_G4_seq_Li_K_human
 
+Выполнил: Семенкович Тимофей
+Группа: 2-ая
+Организм: Челевок
+Гистоновая метка: H3K4me1
+Тип клеток: GM23338 
+Гистоновая метка: ENCFF474FMV https://www.encodeproject.org/files/ENCFF474FMV/  
+Гистоновая метка: ENCFF986GPP https://www.encodeproject.org/files/ENCFF986GPP/
+
 Сохраненная сессия в UCSC GenomeBrowser:  https://genome.ucsc.edu/s/Bruh/hse21_H3K4me1_G4_human 
 
 ## Конвертируем координаты с версии генома hg38 на hg19
+
+Скачаем файл hg38ToHg19.over.chain.gz
+'''
+wget https://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/hg38ToHg19.over.chain.gz
+'''
+Оставляем только первые 5 столбцов
+'''
+zcat ENCFF474FMV.bed.gz  |  cut -f1-5 > H3K4me1_GM23338.ENCFF474FMV.hg38.bed
+zcat ENCFF986GPP.bed.gz  |  cut -f1-5 > H3K4me1_GM23338.ENCFF986GPP.hg38.bed
+'''
+Теперь конвертируем координаты с помощью liftOver
+'''
+liftOver   H3K4me1_GM23338.ENCFF474FMV.hg38.bed   hg38ToHg19.over.chain.gz   H3K4me1_GM23338.ENCFF474FMV.hg19.bed   H3K4me1_GM23338.ENCFF474FMV.unmapped.bed
+liftOver   H3K4me1_GM23338.ENCFF986GPP.hg38.bed   hg38ToHg19.over.chain.gz   H3K4me1_GM23338.ENCFF986GPP.hg19.bed   H3K4me1_GM23338.ENCFF986GPP.unmapped.bed
+'''
+
+## Строим гистограммы распределения длин пик
+С помощью этого КОДА получаем следующие гистограммы:
+
+
+
 
 Визуализируем в геном браузере с помощью 
 track visibility=dense name="ENCFF474FMV"  description="H3K4me1_GM23338_ENCFF474FMV.hg19.filtered.bed"
