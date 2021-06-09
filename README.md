@@ -20,3 +20,5 @@ track visibility=dense name="intersect_with_G4"  color=200,0,0  description="H3K
 https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM23338.intersect_with_G4.bed
 
 Все опять норм ![image](https://user-images.githubusercontent.com/55275328/121381903-cf733c80-c94e-11eb-8413-460bd85a266d.png)
+
+http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr10%3A1%2D31050000&hgsid=1124114297_Gjwg03RjLi3rLXCaZaMkdVrppvtQ
