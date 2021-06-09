@@ -26,3 +26,6 @@ https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM2
 Сессия: https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr10%3A174753%2D184126&hgsid=1124120993_P5alfn82MucFAMwArk9KBpqULamM
 
 
+Наиболее значимые: ![image](https://user-images.githubusercontent.com/55275328/121390163-c8036180-c955-11eb-8457-0592d1ab1345.png)
+
+
