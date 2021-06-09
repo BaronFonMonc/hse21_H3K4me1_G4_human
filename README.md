@@ -31,6 +31,7 @@ https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM2
 ![изображение](https://user-images.githubusercontent.com/55275328/121404156-57b00c80-c964-11eb-90ca-e89099e34550.png)
 
 
-Наиболее значимые: ![image](https://user-images.githubusercontent.com/55275328/121405265-824e9500-c965-11eb-9b57-0dfb9b4e9682.png)
+Наиболее значимые: ![image](https://user-images.githubusercontent.com/55275328/121417642-cdbb7000-c972-11eb-8e1a-fd711409f14a.png)
+
 
 
