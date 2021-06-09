@@ -1,6 +1,6 @@
 # hse21_H3K4me1_G4_seq_Li_K_human
 
-охраненная сессия в UCSC GenomeBrowser:  https://genome.ucsc.edu/s/Bruh/hse21_H3K4me1_G4_human 
+Сохраненная сессия в UCSC GenomeBrowser:  https://genome.ucsc.edu/s/Bruh/hse21_H3K4me1_G4_human 
 
 ## Конвертируем координаты с версии генома hg38 на hg19
 
