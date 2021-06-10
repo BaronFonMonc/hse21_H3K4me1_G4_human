@@ -97,7 +97,7 @@ track visibility=dense name="intersect_with_G4"  color=200,0,0  description="H3K
 https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM23338.intersect_with_G4.bed
 ```
 В итоге получаем: ![image](https://user-images.githubusercontent.com/55275328/121381903-cf733c80-c94e-11eb-8413-460bd85a266d.png)
-![изображение](https://user-images.githubusercontent.com/55275328/121404156-57b00c80-c964-11eb-90ca-e89099e34550.png) chr1:100471589-100471622
+![image](https://user-images.githubusercontent.com/55275328/121486732-14908080-c9da-11eb-82a8-8992aa5e577d.png) chr1:100471589-100471622
 
 ## Ассоциируем полученные пересечения с ближайшими генами.
 С помощью [этого](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/src/ChIPpeakAnno.R) кода получаем 2 файла: [H3K4me1_GM23338.intersect_with_G4.genes.txt](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM23338.intersect_with_G4.genes.txt) и [H3K4me1_GM23338.intersect_with_G4.genes_uniq.txt](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM23338.intersect_with_G4.genes_uniq.txt).  
