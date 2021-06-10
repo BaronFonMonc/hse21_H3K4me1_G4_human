@@ -41,7 +41,7 @@ awk '$3 - $2 < 5001' ../data/H3K4me1_GM23338_ENCFF986GPP.hg19.bed > ../data/H3K4
 Теперь гистограммы примут следующий вид:
 ![image](https://user-images.githubusercontent.com/55275328/121437232-a1135280-c98a-11eb-8385-dda4f4855502.png)  
 ![image](https://user-images.githubusercontent.com/55275328/121437262-aa9cba80-c98a-11eb-9e98-2f64fda19610.png)  
-Кол-во пиков: 371034 и 187145 соответственно
+Кол-во пиков: 371034 и 187145 соответственно (уменьшилось на 498 и 396)
 
 ## Строим pie-чарты фильтрованных наборов с помощью ChIPseeker
 Данные графики получены с помощью этого [кода](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/src/chip_seeker.R)  
@@ -68,7 +68,7 @@ https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/blob/main/data/H3K4me1_GM
 track visibility=dense name="ChIP_merge"  color=50,50,200   description="H3K4me1_GM23338_merge.hg19.bed"
 https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/blob/main/data/H3K4me1_GM23338_merge.hg19.bed?raw=true
 ```
-Как видим все в порядке ![image](https://user-images.githubusercontent.com/55275328/121358140-0a6b7500-c93b-11eb-9df3-92c3e6653703.png)
+Как видим все в порядке ![image](https://user-images.githubusercontent.com/55275328/121358140-0a6b7500-c93b-11eb-9df3-92c3e6653703.png) 
 
 ## Анализ участков вторичной стр-ры ДНК
 Скачиваем два файла [plus](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/blob/main/data/GSM3003539_Homo_all_w15_th-1_plus.hits.max.K.w50.25.bed.gz?raw=true), [minus](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/blob/main/data/GSM3003539_Homo_all_w15_th-1_minus.hits.max.K.w50.25.bed.gz?raw=true) и "сливаем" их с помощью утилиты bedtools merge как было показано выше. В итоге получаем файл G4_seq.bed  
@@ -97,7 +97,7 @@ track visibility=dense name="intersect_with_G4"  color=200,0,0  description="H3K
 https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM23338.intersect_with_G4.bed
 ```
 В итоге получаем: ![image](https://user-images.githubusercontent.com/55275328/121381903-cf733c80-c94e-11eb-8413-460bd85a266d.png)
-![изображение](https://user-images.githubusercontent.com/55275328/121404156-57b00c80-c964-11eb-90ca-e89099e34550.png)
+![изображение](https://user-images.githubusercontent.com/55275328/121404156-57b00c80-c964-11eb-90ca-e89099e34550.png) chr1:100471589-100471622
 
 ## Ассоциируем полученные пересечения с ближайшими генами.
 С помощью [этого](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/src/ChIPpeakAnno.R) кода получаем 2 файла: [H3K4me1_GM23338.intersect_with_G4.genes.txt](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM23338.intersect_with_G4.genes.txt) и [H3K4me1_GM23338.intersect_with_G4.genes_uniq.txt](https://github.com/BaronFonMonc/hse21_H3K4me1_G4_human/raw/main/data/H3K4me1_GM23338.intersect_with_G4.genes_uniq.txt).  
